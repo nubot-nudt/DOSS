@@ -1,0 +1,8 @@
+output/*
+output_previous*
+*.pyc
+ow3d_data/*
+semantic_kitti_api-master/*
+*/__pycache__/*
+dataloader/split/*
+*/.idea/*
