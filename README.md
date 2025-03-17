@@ -1,6 +1,6 @@
 # DOSS
 
-This repository contains the implementation of our paper, which was accepted by ICRA2025 :
+This repository contains the implementation of our paper, which was accepted by ICRA2025 [[PDF]](https://arxiv.org/pdf/2503.11097):
 
 > **A Novel Decomposed Feature-Oriented Framework for Open-Set Semantic Segmentation on LiDAR Data** \
 > [Wenbang Deng](https://github.com/dwbzxc), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli), Qinghua Yu, Yunze He, Junhao Xiao, Huimin Lu
