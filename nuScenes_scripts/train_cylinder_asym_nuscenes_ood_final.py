@@ -296,7 +296,7 @@ def main(args):
                     coor_ori.permute(1, 0).chunk(chunks=4, dim=0)].squeeze()
 
                 val_loss_sem = loss_sem_func(y_in_normal_valid, pt_label_origin.squeeze())
-                val_loss_lovasz = lovasz_softmax(torch.nn.functional.softmax(y_in_normal), (voxel_label_tensor - 1),
+                val_loss_lovasz = lovasz_softmax(torch.nn.functional.softmax(y_in_normal), (val_label_tensor - 1),
                                              ignore=-1)
                 val_loss_sem = sum(val_loss_sem) + val_loss_lovasz
 
